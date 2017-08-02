@@ -20,50 +20,53 @@
   modified 8 Sep 2016
   by Colby Newman
 */
-
+  int dot = 250;
+    int dash = 500;
+    int space = 500;
 
   // the setup function runs once when you press reset or power the board
   void setup() {
     // initialize digital pin LED_BUILTIN as an output.
     pinMode(LED_BUILTIN, OUTPUT);
+  
   }
 
   // the loop function runs over and over again forever
   void loop() {
     digitalWrite(LED_BUILTIN, HIGH);
-    delay(500);
+    delay(dot);
     digitalWrite(LED_BUILTIN, LOW);
-    delay(500);
+    delay(space);
     digitalWrite(LED_BUILTIN, HIGH);
-    delay(500);
+    delay(dot);
     digitalWrite(LED_BUILTIN, LOW);
-    delay(500);
+    delay(space);
     digitalWrite(LED_BUILTIN, HIGH);
-    delay(500);
+    delay(dot);
     digitalWrite(LED_BUILTIN, LOW);
-    delay(500);
+    delay(space);
     digitalWrite(LED_BUILTIN, HIGH);
-    delay(500);
+    delay(dash);
     digitalWrite(LED_BUILTIN, LOW);
-    delay(500);
+    delay(space);
     digitalWrite(LED_BUILTIN, HIGH);
-    delay(1000);
+    delay(dash);
     digitalWrite(LED_BUILTIN, LOW);
-    delay(500);
+    delay(space);
     digitalWrite(LED_BUILTIN, HIGH);
-    delay(1000);
+    delay(dash);
     digitalWrite(LED_BUILTIN, LOW);
-    delay(500);
+    delay(space);
     digitalWrite(LED_BUILTIN, HIGH);
-    delay(500);
+    delay(dot);
     digitalWrite(LED_BUILTIN, LOW);
-    delay(500);
+    delay(space);
     digitalWrite(LED_BUILTIN, HIGH);
-    delay(500);
+    delay(dot);
     digitalWrite(LED_BUILTIN, LOW);
-    delay(500);
+    delay(space);
     digitalWrite(LED_BUILTIN, HIGH);
-    delay(500);
+    delay(dot);
     digitalWrite(LED_BUILTIN, LOW);
-    delay(500);
+    delay(space);
   }
